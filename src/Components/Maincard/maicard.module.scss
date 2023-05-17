@@ -1,0 +1,50 @@
+.Maincard {
+  // border: 1px solid red;
+  width: 1140px;
+  height: 280px;
+  // display: flex;
+  // justify-content: center;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 50px;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  .Maincardcards {
+    // display: grid;
+    .Maincardflex {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      .Maincardcardscard {
+        border: 1px solid #e6e6e6;
+        padding: 15px 5px;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        transition: 0.25s linear, color 0.25s linear,
+          box-shadow 300ms ease-in-out;
+        height: 110px;
+        width: 193px;
+        box-shadow: 0px 0px 2px 1px #dbdbdb;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 4px 4px 2px 1px #e6e6e6;
+        }
+        .Maincardline {
+          height: 1px;
+          background: #aeaeae;
+          width: 40%;
+          margin: 17px 77px;
+        }
+        h1 {
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

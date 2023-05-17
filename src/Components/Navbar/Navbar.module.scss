@@ -8,7 +8,6 @@
   width: 100%;
   height: 64px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
   .navbarlogo {
     display: flex;
@@ -30,39 +29,48 @@
       width: 270px;
     }
   }
-  .navbarlinks {
-    display: flex;
-    height: 100%;
-    .navbarlinkstop {
+  .navbarmain {
+    .navbarlinks {
       display: flex;
-      justify-content: space-between;
-      cursor: pointer;
-      align-items: center;
-      color: #687074;
-      background-color: #fff;
-      transition: background-color 0.25s linear, color 0.25s linear,;
-      padding: 0 5px;
-      a {
-        text-decoration: none;
+      height: 100%;
+
+      .navbarlinkstop {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        align-items: center;
         color: #687074;
-        padding-right: 8px;
-        font-size: 18px;
+        background-color: #fff;
+        transition: background-color 0.25s linear, color 0.25s linear;
+        padding: 0 5px;
+        a {
+          text-decoration: none;
+          color: #687074;
+          padding-right: 8px;
+          font-size: 18px;
+        }
+        svg {
+          color: #687074;
+          transform: rotate(-90deg);
+          transition: 0.2s;
+        }
+        &:hover {
+          background-color: #039be5;
+          color: #fff;
+        }
+        &:hover a {
+          color: #fff;
+        }
+        &:hover svg {
+          color: #fff;
+          transform: rotate(90deg);
+        }
       }
-      svg {
-        color: #687074;
-        transform: rotate(-90deg);
-        transition: .2s;
-      }
-      &:hover {
-        background-color: #039be5;
-        color: #fff;
-      }
-      &:hover a{
-        color: #fff;
-      }
-      &:hover svg{
-        color: #fff;
-        transform: rotate(90deg);
+
+      .navbarlinksbottom {
+        width: 100px;
+        height: 100px;
+        background: #212121;
       }
     }
   }

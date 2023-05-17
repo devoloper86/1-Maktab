@@ -1,8 +1,10 @@
 import React from "react";
 import style from "./Sciences.module.scss";
 import { Fanlar } from "./static_data";
+import { Link } from "react-router-dom";
 
 function Sciences() {
+  console.log(Fanlar);
   return (
     <div className={style.Sciences}>
       <div className="">
@@ -13,65 +15,18 @@ function Sciences() {
         </div>
 
         <div className={style.Sciencescard}>
-
           <div className={style.Sciencescardcards}>
             {Fanlar.map((fan) => (
-              <div className="">
+              <div className={style.Sciencescardcardsgrid}>
                 <img src={fan.image} alt="" />
                 <div className={style.Sciencescardbottom}>
                   <h1>{fan.title}</h1>
                   <p>{fan.description}</p>
                   <div className={style.Sciencescardbottomflex}>
                     <span>{fan.time}</span>
-                    <a href="sas">{fan.button}</a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className={style.Sciencescardcards}>
-            {Fanlar.map((fan) => (
-              <div className="">
-                <img src={fan.image} alt="" />
-                <div className={style.Sciencescardbottom}>
-                  <h1>{fan.title}</h1>
-                  <p>{fan.description}</p>
-                  <div className={style.Sciencescardbottomflex}>
-                    <span>{fan.time}</span>
-                    <a href="sas">{fan.button}</a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className={style.Sciencescardcards}>
-            {Fanlar.map((fan) => (
-              <div className="">
-                <img src={fan.image} alt="" />
-                <div className={style.Sciencescardbottom}>
-                  <h1>{fan.title}</h1>
-                  <p>{fan.description}</p>
-                  <div className={style.Sciencescardbottomflex}>
-                    <span>{fan.time}</span>
-                    <a href="sas">{fan.button}</a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className={style.Sciencescardcards}>
-            {Fanlar.map((fan) => (
-              <div className="">
-                <img src={fan.image} alt="" />
-                <div className={style.Sciencescardbottom}>
-                  <h1>{fan.title}</h1>
-                  <p>{fan.description}</p>
-                  <div className={style.Sciencescardbottomflex}>
-                    <span>{fan.time}</span>
-                    <a href="sas">{fan.button}</a>
+                    <Link to={fan.route} state={fan}>
+                      {fan.button}
+                    </Link>
                   </div>
                 </div>
               </div>

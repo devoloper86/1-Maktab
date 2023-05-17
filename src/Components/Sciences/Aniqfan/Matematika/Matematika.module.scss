@@ -11,7 +11,8 @@
   .Sciencestexttop {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     h2 {
       padding: 0 30px;
       color: #5d5d5d;
@@ -31,7 +32,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
-    margin-bottom: 50px;
+    margin-bottom: 300px;
+    margin-top: 90px;
     // border: 1px solid red;
 
     .Sciencescardcards {
@@ -41,7 +43,10 @@
       transition: box-shadow 0.25s linear;
       z-index: 1000;
       transition: 0.5s;
-      display: flex;
+      margin-top: 490px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-row-gap: 30px;
       justify-content: space-between;
 
       .Sciencescardcardsgrid {
@@ -69,7 +74,7 @@
         img {
           width: 100%;
           border: 10px 10px 0px 0px;
-          // height: 100%;
+          height: 45%;
         }
         .Sciencescardbottom {
           padding: 20px 10px;

@@ -14,39 +14,14 @@ function Navbar() {
           </span>
         </div>
       </div>
-      <div className={style.navbarlinks}>
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">Universitet</a>
-          <GoChevronRight />
+      <div className={style.navbarmain}>
+        <div className={style.navbarlinks}>
+          <div className={style.navbarlinkstop}>
+            <a href="localhost:3000">Universitet</a>
+            <GoChevronRight />
+          </div>
         </div>
-
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">Faoliyat</a>
-          <GoChevronRight />
-        </div>
-
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">Talabalarga</a>
-          <GoChevronRight />
-        </div>
-
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">O`qituvchilarga</a>
-          <GoChevronRight />
-        </div>
-
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">Faxrlarimmiz</a>
-          <GoChevronRight />
-        </div>
-
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">Hamkorlarimmiz</a>
-        </div>
-
-        <div className={style.navbarlinkstop}>
-          <a href="localhost:3000">Aloqa</a>
-        </div>
+        <div className={style.navbarlinksbottom}></div>
       </div>
     </div>
   );
