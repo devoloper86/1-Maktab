@@ -1,0 +1,85 @@
+.Footer {
+    background-color: #0e1133;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    .Footermain {
+        // border: 1px solid red;
+        margin: auto;
+        padding: 20px;
+        width: 1130px;
+        height: 370px;
+        display: flex;
+        justify-content: space-between;
+        .Footermainleft {
+            // border: 1px solid red;
+            height: 100%;
+            width: 100%;
+            .Footermainimgl {
+                width: 115px;
+                height: 115px;
+                // border: 1px solid red;
+                margin: auto;
+                transition: 0.5s;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .Footermaintext {
+                margin-bottom: 24px;
+                font-size: 20px;
+                margin-top: 5px;
+                text-align: center;
+            }
+            .Footermainicons {
+                // border: 1px solid red;
+                font-size: 39px;
+                display: flex;
+                width: 298px;
+                margin: auto;
+                justify-content: space-around;
+                transition: 10s;
+                svg {
+                    transition: transform 1s;
+                    cursor: pointer;
+                }
+                svg:hover {
+                    // transform: scale(1.1);
+                    // transform: translateY(-5px);
+                    transform: rotate(360deg);
+                }
+            }
+        }
+        .Footermaincenter {
+            // border: 1px solid red;
+            height: 100%;
+            width: 100%;
+            .Footermaintitle {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                padding-top: 5px;
+                font-size: 22px;
+            }
+            .Footermainlist {
+                margin-left: 50px;
+                ul {
+                    li {
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .Footermainright {
+            // border: 1px solid red;
+            height: 100%;
+            width: 100%;
+            background-color: aquamarine;
+        }
+    }
+}

@@ -9,6 +9,7 @@
   height: 64px;
   display: flex;
   justify-content: space-around;
+  // position: fixed;
   .navbarlogo {
     display: flex;
     align-items: center;
@@ -42,7 +43,7 @@
         color: #687074;
         background-color: #fff;
         transition: background-color 0.25s linear, color 0.25s linear;
-        padding: 0 5px;
+        padding: 0 10px;
         a {
           text-decoration: none;
           color: #687074;

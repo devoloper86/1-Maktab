@@ -4,6 +4,10 @@ import "swiper/css";
 import "swiper/css/scrollbar";
 import "./Carusel.css";
 import { Autoplay, Scrollbar } from "swiper";
+import imgone from "../../Image/Matematika.jpg"
+import imgone1 from "../../Image/Algebra.png"
+import imgone2 from "../../Image/Informatika.jpg"
+import imgone3 from "../../Image/Tarix.jpg"
 
 function Carusel() {
   const progressCircle = useRef(null);
@@ -29,10 +33,10 @@ function Carusel() {
           onAutoplayTimeLeft={onAutoplayTimeLeft}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
+          <SwiperSlide><img src={imgone} alt="" /></SwiperSlide>
+          <SwiperSlide><img src={imgone1} alt="" /></SwiperSlide>
+          <SwiperSlide><img src={imgone2} alt="" /></SwiperSlide>
+          <SwiperSlide><img src={imgone3} alt="" /></SwiperSlide>
           <div className="autoplay-progress" slot="container-end">
             <svg viewBox="0 0 48 48" ref={progressCircle}>
               <circle cx="24" cy="24" r="20"></circle>
