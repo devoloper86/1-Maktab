@@ -39,7 +39,9 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className={style.Footermainright}></div>
+                    <div className={style.Footermainright}>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187.64668188020713!2d71.72251850734024!3d41.1924098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a4b1bd71e9bdd7%3A0xaa0f5121af27b00c!2z0KjQutC-0LvQsCDihJYx!5e0!3m2!1suz!2s!4v1684496253854!5m2!1suz!2s" width="100%" height="100%" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
