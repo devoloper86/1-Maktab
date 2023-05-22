@@ -1,0 +1,54 @@
+.Admin {
+    width: 16%;
+    border-right: 2px solid #656565;
+    border-radius: 4px;
+
+    .Admindata {
+        display: flex;
+        // border: 1px solid red;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        color: aqua;
+        margin-bottom: 15px;
+        cursor: pointer;
+        transition: color 1s, transform 1s;
+        // box-shadow: 0px 2px 2px 2px;
+        .Admindataleft {
+            display: flex;
+            font-weight: 700;
+            font-style: oblique;
+            align-items: center;
+            transition: color 1s, transform 1s;
+            &:hover {
+                color: blue;
+                transform: translateX(5px);
+            }
+            &:hover div:nth-child(2) {
+                color: blue;
+            }
+            div:nth-child(1) {
+                margin-right: 12px;
+                font-size: 26px;
+                align-items: center;
+                padding-left: 10px;
+            }
+            div:nth-child(2) {
+                font-size: 20px;
+                margin-top: -5px;
+                align-items: center;
+            }
+        }
+        div:nth-child(2) {
+            font-size: 24px;
+            padding-right: 10px;
+        }
+        .Admindataleft:hover div:nth-child(2) {
+            color: blue;
+        }
+    }
+}
+
+.Adminright {
+    margin-left: 20px;
+}

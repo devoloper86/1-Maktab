@@ -1,0 +1,81 @@
+.Signin {
+    background-color: #5f3fb7;
+    width: 100%;
+    display: flex;
+    height: 625px;
+    .Signinmargin {
+        margin: auto;
+        // border: 1px solid red;
+        width: 358px;
+        height: 500px;
+        padding: 30px 60px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: center;
+        form {
+            h1 {
+                font-size: 32px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                color: #888888;
+            }
+            input {
+                padding: 15px;
+                width: 100%;
+                margin-bottom: 30px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                color: #333;
+                font-weight: 300;
+                font-size: 17px;
+                height: auto;
+                cursor: pointer;
+            }
+            .kunflex {
+                display: flex;
+                a {
+                    text-decoration: none;
+                    button {
+                        background-color: #6747c7;
+                        border: 1px solid #6747c7;
+                        border-radius: 3px;
+                        padding: 15px 20px;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 18px;
+                        cursor: pointer;
+                        font-weight: 700;
+                        transition: all 0.3s ease-in-out;
+                        opacity: 0.9;
+                        width: 100%;
+                        margin-bottom: 30px;
+                        margin-right: 7px;
+                        text-decoration: none;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            a {
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #333;
+                &:focus {
+                    color: #5f3fb7;
+                }
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

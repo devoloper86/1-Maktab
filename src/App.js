@@ -10,12 +10,16 @@ import Xizmatlar from "./Components/Xizmatlar/Xizmatlar";
 import Sorovnoma from "./Components/Sorovnoma/Sorovnoma";
 import Footer from "./Components/Footer/Footer";
 import Hamkorlar from "./Components/Hamkorlar/Hamkorlar";
+import Signup from "./Components/Register/Signup/Signup";
+import Signin from "./Components/Register/Signin/Signin";
 
 function App() {
   return (
     <div>
+      {/* <Signup /> */}
+      <Signin />
       {/* <Header /> */}
-      <Navbar />
+      {/* <Navbar />
       <Carusel />
       <Sciences />
       <Elonlar />
@@ -23,7 +27,7 @@ function App() {
       <Xizmatlar />
       <Sorovnoma />
       <Hamkorlar />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

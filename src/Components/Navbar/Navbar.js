@@ -40,7 +40,7 @@ function Navbar() {
             <a href="localhost:3000">Hamkorlarimmiz</a>
           </div>
           <div className={style.navbarlinkstop}>
-            <a href="localhost:3000">Aloqa</a>
+            <a href="/admin">Aloqa</a>
           </div>
         </div>
         <div className={style.navbarlinksbottom}></div>
