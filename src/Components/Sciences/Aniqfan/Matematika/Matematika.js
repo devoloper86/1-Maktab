@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Matematika.module.scss";
-import { Fanlar } from "../../static_data";
+// import { Fanlar } from "../../static_data";
 import { Link, useLocation } from "react-router-dom";
 import Navbar from "../../../Navbar/Navbar";
 

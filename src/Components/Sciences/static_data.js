@@ -28,7 +28,7 @@ export const Fanlar = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     time: "11-05-2023 | 16:19",
     button: "Batafsil",
-    route: "aniq_fan",
+    route: "/aniq_fan",
     fan_data: [
       {
         id: 1,
@@ -38,7 +38,7 @@ export const Fanlar = [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
         time: "11-05-2023 | 16:19",
         button: "Batafsil",
-        route: "Matematika",
+        route: "/Matematika",
         fan_science: [
           {
             id: 1,

@@ -1,17 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAhYkmBvawGPmKDZ8r_Tu_85cQvbNGiX8w",
-  authDomain: "maktab-b1b32.firebaseapp.com",
-  projectId: "maktab-b1b32",
-  storageBucket: "maktab-b1b32.appspot.com",
-  messagingSenderId: "1021297555728",
-  appId: "1:1021297555728:web:98afa9beaad9007df80d95",
-  measurementId: "G-Q0R367MSH7",
+    apiKey: "AIzaSyCwP-B8booY6Ck-x_6-odgLpEugwB-LB8E",
+    authDomain: "ligin-f4334.firebaseapp.com",
+    projectId: "ligin-f4334",
+    storageBucket: "ligin-f4334.appspot.com",
+    messagingSenderId: "191754710314",
+    appId: "1:191754710314:web:c8a9a0c78b1b71b56c0253",
+    measurementId: "G-RP9XSE8ZJC"
 };
 
 const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
-const firestore = getFirestore();
-export default firestore;
+const firestore = getFirestore()
+export default firestore
